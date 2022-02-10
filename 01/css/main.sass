@@ -3,4 +3,79 @@
     padding: 0
     list-style-type: none
     font-family: Muller
+a, .nav-link
+    color: inherit
 
+
+body
+    background-color: #191B20
+    color: white
+
+
+.offcanvas-end
+    width: 100%
+    transform: translateY(-100%)
+.navbar
+    color:
+    .offcanvas
+        font-size: 14px
+        background-color: #282B32
+        bottom: unset
+    .navbar-toggler, .navbar-brand
+        &:focus, &:hover
+            box-shadow: #F69020 0 0 0.25rem
+    .navbar-brand, .offcanvas-title
+        width: 50%
+        max-width: 162px
+
+        img
+            width: 100%
+    .dropdown-toggle
+        color: #F69020
+    .nav-link
+        display: flex
+        align-items: center
+        column-gap: 1ch
+        font-weight: 400
+        //min-width: max-content
+        span
+            width: 3.75em
+            height: 3.75em
+            background-repeat: no-repeat
+            background-position: center
+            border-radius: 50%
+            background-color: rgba(255, 255, 255, 0.07)
+    .location
+        background-image: url("../img/nav-location.png")
+    .phone
+        background-image: url("../img/nav-phone.png")
+    .buttn
+        font-size: 13px
+        text-transform: uppercase
+        font-weight: 700
+        letter-spacing: 0.05em;
+        padding: 20px 1.5ch 16px
+        border-radius: 40px
+        background-color: rgba(255,255,255,0)
+        justify-content: space-around
+        border: 1px solid #393C43
+        box-sizing: border-box
+        width: 72%
+        max-width:  204px
+        min-width: max-content
+        margin-top: 19px
+
+    .buttn-white
+        background-color: rgba(255,255,255,1)
+        color:  black  
+        
+
+    .dropdown-toggle::after
+        display: none
+    .navbar-brand
+        &:focus
+            outline: 0
+    .navbar-toggler-icon
+        background-image: url("../img/nav-burger.png")
+    .btn-close
+        background-image: url("../img/burger-close.png")

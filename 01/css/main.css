@@ -4,4 +4,114 @@
   list-style-type: none;
   font-family: Muller;
 }
+
+a, .nav-link {
+  color: inherit;
+}
+
+body {
+  background-color: #191B20;
+  color: white;
+}
+
+.offcanvas-end {
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.navbar .offcanvas {
+  font-size: 14px;
+  background-color: #282B32;
+  bottom: unset;
+}
+
+.navbar .navbar-toggler:focus, .navbar .navbar-toggler:hover, .navbar .navbar-brand:focus, .navbar .navbar-brand:hover {
+  -webkit-box-shadow: #F69020 0 0 0.25rem;
+          box-shadow: #F69020 0 0 0.25rem;
+}
+
+.navbar .navbar-brand, .navbar .offcanvas-title {
+  width: 50%;
+  max-width: 162px;
+}
+
+.navbar .navbar-brand img, .navbar .offcanvas-title img {
+  width: 100%;
+}
+
+.navbar .dropdown-toggle {
+  color: #F69020;
+}
+
+.navbar .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 1ch;
+          column-gap: 1ch;
+  font-weight: 400;
+}
+
+.navbar .nav-link span {
+  width: 3.75em;
+  height: 3.75em;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.navbar .location {
+  background-image: url("../img/nav-location.png");
+}
+
+.navbar .phone {
+  background-image: url("../img/nav-phone.png");
+}
+
+.navbar .buttn {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 20px 1.5ch 16px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid #393C43;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 72%;
+  max-width: 204px;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  margin-top: 19px;
+}
+
+.navbar .buttn-white {
+  background-color: white;
+  color: black;
+}
+
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+.navbar .navbar-brand:focus {
+  outline: 0;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("../img/nav-burger.png");
+}
+
+.navbar .btn-close {
+  background-image: url("../img/burger-close.png");
+}
 /*# sourceMappingURL=main.css.map */
