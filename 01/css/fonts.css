@@ -1,8 +1,7 @@
-@font-face {
-  font-family: "RobotoRegular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), 
-  url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
-  url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); 
-  }
+  @font-face {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Muller/Non-commercial/Muller/OTF/Muller-Trial-Regular.otf") format("opentype"),
+    url("../fonts/Muller/Non-commercial/Muller/TTF/Muller-Trial-Regular.ttf") format("truetype"); 
+    }
